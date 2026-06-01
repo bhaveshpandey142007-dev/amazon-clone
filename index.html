@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+
+            <div class="logo">
+                <h2>amazon</h2>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="searchInput"
+                    placeholder="Search Amazon">
+                <button onclick="searchProducts()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart:
+                <span id="cartCount">0</span>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Welcome to Amazon Clone</h1>
+            <p>Shop Electronics, Accessories and More</p>
+        </div>
+
+    </section>
+
+    <section class="products" id="productContainer">
+
+    </section>
+
+    <footer>
+
+        <h3>Amazon Clone Project</h3>
+        <p>Built using HTML, CSS and JavaScript</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
